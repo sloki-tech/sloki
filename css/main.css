@@ -460,7 +460,7 @@ nav {
   text-align: left;
 }
 .desc h6{
-  font-size: 1rem;
+  font-size: 0.9rem;
   }
 @media only screen and (max-width: 800px) {
   .desc h6{
@@ -547,6 +547,59 @@ nav {
     font-size: 1.2rem;
     }
   }
+
+  @media only screen and (max-width: 1360px) {
+    .products-card {
+      height: 240px;
+      width: 200px;
+      border-radius: 0;
+    }
+    .products-card h4{
+      font-size: 1rem;
+    }
+    .mybtn{
+      padding: 8px 10px;
+      left: auto;
+      right: auto ;
+      top: 180px;
+      font-size: 0.9rem;
+      border-radius: 5px;
+    }
+    h1 {
+      font-size: 24px;
+      font-weight: bold;
+      }
+    .main-products h3 {
+      font-size: 1.2rem;
+      }
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .products-card {
+      height: 280px;
+      width: 280px;
+      border-radius: 0;
+    }
+    .products-card h4{
+      font-size: 1.4rem;
+    }
+    .mybtn{
+      padding: 12px 15px;
+      left: auto;
+      right: auto ;
+      top: 200px;
+      font-size: 1rem;
+      border-radius: 5px;
+    }
+    h1 {
+      font-size: 30px;
+      font-weight: bold;
+      }
+    .main-products h3 {
+      font-size: 1.2rem;
+      }
+    }
+
 /* our main products section ends */
 
 /* our  main services section starts */
