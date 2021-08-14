@@ -408,10 +408,10 @@ nav {
 
 .dots > li > a {
   display: block;
-  height: 50px;
-  width: 50px;
-  background-color: #FFF;
-  margin: 0 5px;
+  height: 10px;
+  width: 10px;
+  background-color: rgb(251, 251, 251);
+  margin: 0 20px;
   border-radius: 50%;
   opacity: 0;
   transform: translateY(200px);
@@ -462,10 +462,48 @@ nav {
 .desc h6{
   font-size: 0.9rem;
   }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1160px) and (min-width: 992px) {
   .desc h6{
     font-size: 0.9rem;
   }
+  .holder {
+    position: relative;
+    height: 320px;
+    width: 360px;
+    overflow: hidden;
+    box-shadow: 1px 2px 10px rgba(88, 88, 88, 0.5);
+    transition: box-shadow 0.3s ease-out;
+  }
+  .dots > li > a {
+    display: block;
+    height: 10px;
+    width: 10px;
+    background-color: rgb(251, 251, 251);
+    margin: 0 10px;
+    border-radius: 50%;
+    opacity: 0;
+    transform: translateY(200px);
+    transition: all 0.3s ease-out;
+  }
+  .holder:hover > .dots > li > a {
+    transform: translateY(-100px);
+    opacity: 1;
+  }
+  .holder:hover .img-holder {
+    transform: translateY(-200px);
+  }
+  .desc {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #FFF;
+    height: 200px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    text-align: left;
+  }
+  
 }
 /* our attitude section ends */
 
