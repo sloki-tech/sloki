@@ -462,7 +462,7 @@ nav {
 .desc h6{
   font-size: 0.9rem;
   }
-@media only screen and (max-width: 1160px) and (min-width: 992px) {
+@media only screen and (max-width: 1300px) and (min-width: 992px) {
   .desc h6{
     font-size: 0.9rem;
   }
@@ -703,7 +703,29 @@ nav {
   font-weight: bold;
 
 }
-
+@media screen and (max-width: 1450px) and (min-width: 1200px) {
+  .holder2{
+    height: 300px;
+    width: 220px;
+  }
+  .img-wrapper {
+    height: 300px;
+    width: 220px;
+  }
+  .img-wrapper .layer {
+    box-sizing: border-box;
+    padding: 30px;
+  }
+  .img-wrapper .layer h4{
+    font-size: 1.2rem;
+  }
+  .img-wrapper .layer a{
+    font-size: 1rem;
+    padding: 10px 12px;
+    top: 220px;
+  }
+  
+}
 /* our main services section ends */
 
 /* clients section starts */
